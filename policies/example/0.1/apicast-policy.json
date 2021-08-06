@@ -1,11 +1,16 @@
 {
   "$schema": "http://apicast.io/policy-v1/schema#manifest#",
-  "name": "APIcast Example Policy",
-  "summary": "This is just an example.",
-  "description": "This policy is just an example how to write your custom policy.",
-  "version": "0.1",
+  "name": "Example policy",
+  "summary": "An example policy to be used in integration tests.",
+  "version": "1.0.0",
   "configuration": {
     "type": "object",
-    "properties": { }
+    "properties": {
+      "message": {
+        "type": "string",
+        "description": "A message."
+      }
+    },
+    "required": ["message"]
   }
 }
