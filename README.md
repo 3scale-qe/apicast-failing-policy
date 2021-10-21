@@ -1,8 +1,8 @@
 [![CircleCI](https://circleci.com/gh/3scale/apicast-example-policy.svg?style=svg)](https://circleci.com/gh/3scale/apicast-example-policy)
 
-# APIcast Example Policy
+# APIcast Failing Policy
 
-This policy is an example how to make custom policies for APIcast.
+This policy is a simple policy that fails successfully during access phase.
 
 
 ## OpenShift
