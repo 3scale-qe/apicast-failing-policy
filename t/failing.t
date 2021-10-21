@@ -11,7 +11,7 @@ run_tests();
 
 __DATA__
 
-=== TEST 1: example
+=== TEST 1: failing
 The module does not crash without configuration.
 --- configuration
 {
@@ -19,7 +19,7 @@ The module does not crash without configuration.
     {
       "proxy": {
         "policy_chain": [
-          { "name": "example", "version": "0.1" },
+          { "name": "failing", "version": "0.1" },
           { "name": "apicast.policy.echo", "configuration": { } }
         ]
       }
