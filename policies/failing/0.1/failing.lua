@@ -1,6 +1,6 @@
 local setmetatable = setmetatable
 
-local _M = require('apicast.policy').new('Example', '0.1')
+local _M = require('apicast.policy').new('Failing', '0.1')
 local new = _M.new
 
 function _M.new(configuration)
