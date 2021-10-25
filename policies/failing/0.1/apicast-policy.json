@@ -1,16 +1,16 @@
 {
   "$schema": "http://apicast.io/policy-v1/schema#manifest#",
   "name": "Example policy",
-  "summary": "An example policy to be used in integration tests.",
+  "summary": "An example policy that fails successfullyto be used in integration tests.",
   "version": "1.0.0",
   "configuration": {
     "type": "object",
     "properties": {
-      "message": {
-        "type": "string",
-        "description": "A message."
+      "fail_access": {
+        "type": "boolean",
+        "description": "if true the policy fails on access phase"
       }
     },
-    "required": ["message"]
+    "required": ["fail_access"]
   }
 }
